@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#C0EBFF"
+    android:background="#C5FDFD"
     tools:context=".Screen.MainActivity">
 
 
@@ -27,6 +27,12 @@
         android:background="@drawable/bannerjpg"
         android:orientation="vertical"
         android:layout_height="wrap_content">
+
+
+        <FrameLayout
+            android:id="@+id/fragment_frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
 
 
         <TextView
